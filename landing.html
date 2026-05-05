@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form validation</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/3ad33863ee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+  <!-- header section start -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html"><img src="./images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto gap-3">
+            <a class="nav-link active" aria-current="page" href="landing.html">Home</a>
+            <a class="nav-link" href="#destinations">Destinations</a>
+            <a class="nav-link" href="#about">about</a>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link hk-btn hk-shine" href="index.html">Account</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header section end -->
+  <main>
+    <!-- Hero section start -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 animate fadeIn">
+            <h2 class="hand-write-font"><span>Holidays </span>Agency</h2>
+            <h1 class="title">Let's Make Your Best Trip Ever!</h1>
+            <p>Our Traveling Adventures Take You To Breathtaking Destinations, Creating Unforgettable Memories And
+              Experiences That Last A Lifetime.</p>
+            <a href="mailto:globetravel.gmail.com" class="hk-btn hk-shine">Let's Talk</a>
+          </div>
+          <div class="col-md-7  pe-md-0">
+            <div class="slider owl-carousel">
+              <div class="slider-card">
+                <img src="images/hero-1-slider-img-1.webp" alt="slider">
+                <div class="slider-card-content">
+                  <h4>New York City</h4>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.4</div>
+                </div>
+              </div>
+              <div class="slider-card">
+                <img src="images/hero-1-slider-img-2.webp" alt="slider">
+                <div class="slider-card-content">
+                  <h4>Scandinavia</h4>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.6</div>
+                </div>
+              </div>
+              <div class="slider-card">
+                <img src="images/hero-1-slider-img-3.webp" alt="slider">
+                <div class="slider-card-content">
+                  <h4>South Africa</h4>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.3</div>
+                </div>
+              </div>
+              <div class="slider-card">
+                <img src="images/hero-1-slider-img-4.webp" alt="slider">
+                <div class="slider-card-content">
+                  <h4>South America</h4>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.7</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section  end-->
+    <!-- Destination section start -->
+    <section class="destination-section pad-100-50">
+      <div class="container" id="destinations">
+        <div class="row align-items-end">
+          <div class="col-12">
+            <h3 class="hand-write-font">Destination</h3>
+            <h2 class="title">Top Destinations</h2>
+          </div>
+        </div>
+        <div class="row pt-4 pt-lg-5">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3">
+              <img class="card-img-top" src="images/popular-tour-1.webp" alt="Card image cap">
+              <p class="days-tag">08 Days</p>
+              <div class="pt-3 d-flex align-items-center justify-content-between">
+                <div>
+                  <h5 class="card-title">Elephant Beach</h5>
+                  <p class="card-text"><i class="fa-solid fa-location-dot"></i> Island beach</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.7</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3">
+              <img class="card-img-top" src="images/popular-tour-2.webp" alt="Card image cap">
+              <p class="days-tag">08 Days</p>
+              <div class="pt-3 d-flex align-items-center justify-content-between">
+                <div>
+                  <h5 class="card-title">Brazil Tour</h5>
+                  <p class="card-text"><i class="fa-solid fa-location-dot"></i> South America</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.4</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3">
+              <img class="card-img-top" src="images/popular-tour-3.webp" alt="Card image cap">
+              <p class="days-tag">08 Days</p>
+              <div class="pt-3 d-flex align-items-center justify-content-between">
+                <div>
+                  <h5 class="card-title">Victoria Falls</h5>
+                  <p class="card-text"><i class="fa-solid fa-location-dot"></i>South Africa Falls</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.3</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3">
+              <img class="card-img-top" src="images/popular-tour-4.webp" alt="Card image cap">
+              <p class="days-tag">08 Days</p>
+              <div class="pt-3 d-flex align-items-center justify-content-between">
+                <div>
+                  <h5 class="card-title">Norway Tour</h5>
+                  <p class="card-text"><i class="fa-solid fa-location-dot"></i> Scandinavia</p>
+                </div>
+                <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Destination section end -->
+    <!-- About section start -->
+    <section class="about-section pad-50 mb-3 mb-lg-5">
+      <div class="container" id="about">
+        <div class="row">
+          <div class="col-md-6 col-lg-7 pe-md-0 pe-lg-5 about-section-left">
+            <img src="images/about-us-hero-img.webp" alt="about">
+            <div class="establish">
+              <p>Establishment in</p>
+              <h2 class="title fw-bold">2003</h2>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <h3 class="hand-write-font">About Us</h3>
+            <h2 class="title mb-5">Discover Every Corner Of The World With Us</h2>
+            <p class="pb-2">Join us on an extraordinary journey as we explore every corner of the world together. Our
+              adventures will
+              take you to hidden gems, iconic landmarks, and breathtaking landscapes, offering unforgettable experiences
+              and memories. Discover the beauty and diversity of our planet with us.</p>
+            <a href="mailto:globetravel.gmail.com" class="hk-btn hk-shine">About Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- fullwidth section start -->
+    <section class="fullwidth-section"></section>
+    <!-- fullwidth section end -->
+
+    <!-- counter section start -->
+    <section class="counter-section pad-100-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="counter-set counter-one d-flex align-items-center justify-content-evenly">
+              <i class="fa-solid fa-city"></i>
+              <div>
+                <h3 class="fw-bold">50+</h3>
+                <p>Cities</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="counter-set counter-two d-flex align-items-center justify-content-evenly">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <h3 class="fw-bold">900+</h3>
+                <p>Places</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="counter-set counter-three d-flex align-items-center justify-content-evenly">
+              <i class="fa-solid fa-hotel"></i>
+              <div>
+                <h3 class="fw-bold">300+</h3>
+                <p>Hotels</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="counter-set counter-four d-flex align-items-center justify-content-evenly">
+              <i class="fa-regular fa-thumbs-up"></i>
+              <div>
+                <h3 class="fw-bold">3K+</h3>
+                <p>Reviews</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter section end -->
+
+    <!-- Features section start -->
+    <section class="features-section pad-50">
+      <div class="container" id="features">
+        <div class="row align-items-end">
+          <div class="col-12">
+            <h3 class="hand-write-font">Tours</h3>
+            <h2 class="title">Featured Tours</h2>
+          </div>
+        </div>
+        <div class="row pt-4 pt-lg-5">
+          <div class="col-12">
+            <div class="features owl-carousel owl-theme">
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-1.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Singapore Cable Car</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Singapore</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$88</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">April 28, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.4</div>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-2.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Sok National Park</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Bali</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$95</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">August 7, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.7</div>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-3.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Bangkok Phuket</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Bangkok</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$79</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">December 19, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.5</div>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-4.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Langkawi Sky Bridge</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Malaysia</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$80</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">March 30, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.4</div>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-2.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Tad Sae Waterfall</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i>Luang Prabang</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$92</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">August 24, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.8</div>
+                </div>
+              </div>
+              <div class="card p-3">
+                <img class="card-img-top" src="images/popular-tour-3.webp" alt="Card image cap">
+                <p class="days-tag">08 Days</p>
+                <div class="pt-3 d-flex align-items-center justify-content-between">
+                  <div>
+                    <h5 class="card-title">Yala National Park</h5>
+                    <p class="card-text"><i class="fa-solid fa-location-dot"></i> Sri Lanka</p>
+                  </div>
+                  <h4 class="fw-semibold"><span>$65</span></h4>
+                </div>
+                <div class="card-bottom d-flex align-items-center justify-content-between mt-3 pt-3">
+                  <p class="mb-0">May 31, 2026</p>
+                  <div class="rating"><i class="fa-solid fa-star pe-4"></i>4.9</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Features section end -->
+  </main>
+
+  <!-- footer section start -->
+  <footer class="mt-5 pad-100-50">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-12 col-md-5 col-lg-6 pe-5">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat culpa commodi possimus quidem itaque?
+            Nesciunt quidem nemo maiores aliquam voluptate.</p>
+          <p class="pt-2">Connect with us</p>
+          <ul class="d-flex gap-3 p-0 social-links">
+            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3">
+          <h3>Quick Links</h3>
+          <ul class="p-0 links">
+            <li><a class="active" aria-current="page" href="landing.html">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <h3>Quick Connect</h3>
+          <a class="d-flex align-items-start py-2" href="https://maps.app.goo.gl/AH42npF6wa4wcFF7A" target="_blank">
+            <i class="fa-solid fa-location-dot pe-4 mt-1"></i>
+            2118 Thornridge Cir. Syracuse, Connecticut 35624
+          </a>
+          <a class="d-flex align-items-start py-2" href="tel:123 456 7890">
+            <i class="fa-solid fa-phone pe-4 mt-1"></i>
+            123 456 7890
+          </a>
+          <a class="d-flex align-items-start py-2" href="mailto:traverse123@gmail.com">
+            <i class="fa-regular fa-envelope pe-4 mt-1"></i>
+            traverse123@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // banner slider
+    $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000, //2000ms = 2s;
+      autoplaySpeed: 2000,
+      autoplayHoverPause: true,
+      margin: 20,
+      center: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 2
+        }
+      }
+    });
+    //tour sldier
+    $(".features").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000, //2000ms = 2s;
+      autoplaySpeed: 2000,
+      autoplayHoverPause: true,
+      margin: 20,
+      dots: false,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

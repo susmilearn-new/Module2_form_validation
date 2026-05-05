@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form validation</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <main>
+        <section class="signup-section">
+            <div class="container">
+                <div class="card p-4 p-md-5">
+                    <form id="signupForm">
+                        <h1 class="fs-3 text-center mb-4"> Create an account</h1>
+                        <div class="d-flex gap-md-4">
+                            <div class="col-50">
+                                <p>
+                                    <label for="fullname" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="fullname" placeholder="John Deo"
+                                        required>
+                                    <span id="nameError" class="error-message text-danger"></span>
+                                </p>
+                            </div>
+                            <div class="col-50">
+                                <p>
+                                    <label for="username" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="username"
+                                        placeholder="example@mail.com" required>
+                                    <span id="emailError" class="error-message text-danger"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-md-4">
+                            <div class="col-50">
+                                <p>
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="0000-000-000"
+                                        required>
+                                    <span id="phoneError" class="error-message text-danger"></span>
+                                </p>
+                            </div>
+                            <div class="col-50">
+                                <p>
+                                    <label for="location" class="form-label">Location/City</label>
+                                    <input type="text" class="form-control" id="location" placeholder="" required>
+                                    <span id="locationError" class="error-message text-danger"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-md-4">
+                            <div class="col-50">
+                                <!-- <p> -->
+                                    <label for="password" class="form-label">Password</label>
+                                <div class="input-group">
+                                    <input id="password" type="password" class="form-control" name="password" required>
+                                    <span class="input-group-text fa fa-eye-slash toggle-password"
+                                        data-toggle-target="#password"></span>
+                                </div>
+                                <span id="passwordError" class="error-message text-danger"></span>
+                                <!-- </p> -->
+                            </div>
+                            <div class="col-50">
+                                <!-- <p> -->
+                                    <label for="cpassword" class="form-label">Confirm Password</label>
+                                <div class="input-group">
+                                    <input id="cpassword" type="password" class="form-control" name="cpassword"
+                                        required>
+                                    <span class="input-group-text fa fa-eye-slash toggle-password"
+                                        data-toggle-target="#cpassword"></span>
+                                </div>
+                                <span id="cpassError" class="error-message text-danger"></span>
+                                <!-- </p> -->
+                            </div>
+                        </div>
+                        <button class="btn btn-primary my-4" type="submit">Create account</button>
+                        <p class="text-secondary  text-center">Already have an account? <a href="index.html">Log
+                                in</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- custom script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+/* Desktop screen */
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0px 16px;
+    }
+}
+
+/* Upto Ipad landscape screen */
+@media screen and (max-width: 1024px) {
+    .hero-section {
+        min-height: 60vh;
+    }
+
+    .hero-section h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    h2.title {
+        font-size: 30px;
+    }
+
+    .establish {
+        display: none;
+    }
+
+    .counter-set {
+        padding: 40px 25px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    p.card-text,
+    .card-bottom p {
+        font-size: 13px;
+    }
+
+
+}
+
+/* Upto Ipad screen */
+@media screen and (max-width: 992px) {
+    .pad-100-50 {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .pad-50 {
+        padding: 30px 0px;
+    }
+
+    .fullwidth-section {
+        min-height: 500px;
+    }
+
+    .hero-section {
+        min-height: auto;
+    }
+
+    .hero-section .container {
+        position: inherit;
+        transform: unset;
+        padding: 50px 16px;
+    }
+
+    .navbar-nav {
+        margin-top: 40px;
+    }
+
+    .navbar-collapse {
+        height: 100vh;
+    }
+
+    .navbar-nav a:last-child {
+        width: 160px;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 600px) {
+    .hero-section {
+        min-height: 100vh;
+        padding-top: 40px;
+    }
+
+    .hero-section .container {
+        top: 52%;
+    }
+
+    .hero-section a {
+        margin-bottom: 30px;
+    }
+
+    .right-btn {
+        display: none;
+    }
+
+    .card {
+        margin: 10px 0px;
+    }
+
+    .bottom-button {
+        display: block;
+    }
+
+    .about-section-left {
+        padding-bottom: 30px;
+    }
+
+    .owl-nav button span {
+        font-size: 25px;
+        padding: 0px 15px;
+    }
+
+    footer .row .col-12 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .col-50 {
+    width: 100%;
+}
+.d-flex {
+    flex-direction: column;
+}
+
+
+}
